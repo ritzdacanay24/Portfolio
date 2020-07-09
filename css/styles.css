@@ -1,0 +1,234 @@
+/*START:Projects*/
+.projects .card {
+    min-height: 650px !important;
+    max-height: 650px !important;
+    overflow-y: auto
+}
+
+.projects .jumbotron {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.6);
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.projects img.max-height-270 {
+    max-height: 270px
+}
+
+.projects video {
+    min-height: 430px;
+    max-height: 430px;
+    padding: 15px
+}
+
+/*END:Projects*/
+
+/*START:Contact*/
+.contactMe a {
+    color: inherit;
+}
+
+.contactMe .jumbotron {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 0 60px 0;
+}
+
+.contactMe .container>div {
+    opacity: 1
+}
+
+.contactMe p.headerMessage {
+    font-size: 16px
+}
+
+.contactMe .devicon-github-plain,
+.devicon-linkedin-plain {
+    font-size: 70px
+}
+
+.contactMe input.btn-green-submit {
+    background-color: #7d8a35;
+    color: white
+}
+/*END:Contact*/
+
+/*START:Home*/
+.home .jumbotron {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.6);
+    height: 80vh;
+}
+
+.home .container>div {
+    opacity: 1
+}
+
+.home .divider {
+    border-color: #565f25
+}
+
+.home #sillSet {
+    font-size: 20px
+}
+/*END:Home*/
+
+/*START:About*/
+.about .agent-image {
+    background-image: url("../images/portfolio1.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+/*END:About*/
+
+/*START:Main*/
+.margin-bottom-30 {
+    margin-bottom: 30px
+}
+
+a.btn-green {
+    background-color: #7d8a35;
+    color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+header.masthead h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.masthead h1 {
+        font-size: 3.5rem;
+    }
+}
+
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #f4623a;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f4623a !important;
+}
+
+.navbar .container {
+    font-weight: bold;
+}
+
+h1 {
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-size: 100px !important
+}
+
+h3 {
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-size: 80px !important
+}
+
+.btn-primary {
+    background-color: #7d8a35;
+    color: white;
+    border: #7d8a35
+}
+
+header.masthead {
+    padding-top: 6rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.7) 0%, rgba(92, 77, 66, 0.7) 100%), url(../images/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.jumbotron {
+    height: 80vh;
+    overflow-y: auto
+}
+
+.padding-10 {
+    padding: 10px
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+
+.font-size-30 {
+    font-size: 30px !important
+}
+
+/*END:Main*/
